@@ -15,7 +15,8 @@
             [Supernote Supernote Nomad]
             MatchVendor=0x2207
             MatchProduct=0x07
-            AttrEventCode=-BTN_STYLUS
+            AttrEventCode=+BTN_STYLUS
+            AttrPressureRange=197:194
           '';
 
           services.udev.extraHwdb = ''
